@@ -8,6 +8,9 @@
   text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
 }
+body {
+  background-color: #a0d195;
+}
 .sidebar {
   position: fixed;
   right: -100%;
@@ -76,7 +79,6 @@ nav {
 }
 .detail .right {
   float: right;
-  margin-left: 50px;
 }
 
 .logo h2 {
@@ -208,11 +210,45 @@ i {
 
 /* main page styles */
 
-section .giff .gi {
-  width: 100%;
+.home-page .main {
+  margin-top: 7%;
+  float: left;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.home-page .main h1 {
+  font-size: 120px;
+}
+
+.home-page .main h3 {
+  font-size: 50px;
+}
+
+.home-page .main p {
+  font-size: 20px;
+  margin-top: 5%;
+  word-spacing: 10px;
+}
+
+.home-page .main button {
+  margin-top: 3%;
+  background-color: #a0d195;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.home-page .gif {
+  float: right;
+  margin-left: 60%;
+  margin-top: 5%;
   height: 0;
-  padding-bottom: 100%;
-  position: relative;
+  position: absolute;
 }
 
 /* Change color of dropdown links on hover */

@@ -55,3 +55,10 @@ window.onclick = function (event) {
     }
   }
 };
+
+// gif hvering removal
+const gif = document.querySelector(".giphy-embed");
+gif.addEventListener("mouseover", (e) => {
+  e.preventDefault();
+  gif.style.pointerEvents = "none";
+});
