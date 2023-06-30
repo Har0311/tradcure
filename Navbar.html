@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+     <nav>
+        <div class="logo">
+            <a href="#"><img src="logo-1.jpg" alt="logo-hai-bhai-ka"></a>
+            <!-- <h2>TradeCure</h2> -->
+        </div>
+        <div class="detail">
+            <div class="left">
+                <ul>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn" onclick="myFunction()" href="#">Daily goals<i class="fa-solid fa-angle-down"></i></a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">All Challenges</a>
+                                <a href="#">Profile</a>
+                                <a href="#">New content</a>
+                              </div>
+
+                        </div>
+                    </li>
+                    <li> 
+                        <a href="#">Training<i class="fa-solid fa-angle-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#">Consult a specialist</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="right">
+                 <ul>
+                    <li><a href="#"><Button>Connect device</Button></a></li>
+                    <li><a href="#"><i class="fa-solid fa-user" id="font"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-plus" id="font"></i></a></li>
+                 </ul>
+            </div>
+        </div>
+        
+        <div class="bars" >
+            <input type="checkbox" id="check">
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
+        </div>
+
+        <div class="sidebar">
+            <h2>TradeCure</h2>
+            <ul>
+                <li><a href="#"></i>Dashboard<i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Training<i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Explore<i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+     </nav>
+
+
+     <section>
+        <div class="main">
+            <h1>Welcome !</h1>
+            <h3>To the journey of fitness..</h3>
+            <p>At <strong>TradeCure</strong>, we aim to improve your lifestyle and provide a one stop solution for all your healthcare needs</p>
+
+            <button>Know how ></button>
+        </div>
+        <div class="giff">
+            <div class="gi"><iframe src="https://giphy.com/embed/XyakWW6WwplIPSHfuR" width="250px" height="250px" style="position:absolute" frameBorder="0"></iframe></div>
+        </div>
+     </section>
+
+     <script src="navbar.js"></script>
+</body>
+</html>
