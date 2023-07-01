@@ -62,16 +62,3 @@ gif.addEventListener("mouseover", (e) => {
   e.preventDefault();
   gif.style.pointerEvents = "none";
 });
-
-// api calling for articles page
-
-async function callApi() {
-  let result = await fetch("");
-  result = await result.json();
-  console.warn(result);
-  document.getElementById("userData").innerHTML = result.map((user) => {
-    ``;
-  });
-}
-
-callApi();
