@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
+@import url("https://fonts.cdnfonts.com/css/made-evolve-sans");
 
 * {
   margin: 0;
@@ -6,7 +9,6 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
-  font-family: "Roboto Condensed", sans-serif;
 }
 body {
   background-color: #a0d195;
@@ -86,18 +88,6 @@ nav {
   float: right;
 }
 
-.logo h2 {
-  line-height: 80px;
-  font-size: 30px;
-  color: #a0d195;
-  font-weight: 800;
-  margin-left: 50px;
-}
-.logo i {
-  color: black;
-  font-size: 26px;
-}
-
 .detail .left ul li {
   display: inline-block;
   line-height: 85px;
@@ -109,6 +99,7 @@ i {
   -moz-border-radius: 20;
   border-radius: 20px;
   color: black;
+  font-family: "Glacial Indifference", sans-serif;
   font-size: 20px;
   padding: 7px 14px 7px 14px;
   text-decoration: none;
@@ -138,6 +129,7 @@ i {
 }
 .detail .right ul li a {
   font-size: 16px;
+  font-family: "Glacial Indifference", sans-serif;
   border-radius: 5px;
   border: none;
   color: black;
@@ -224,16 +216,19 @@ i {
 
 .home-page .main h1 {
   font-size: 120px;
+  font-family: "Lato", sans-serif;
 }
 
 .home-page .main h3 {
   font-size: 50px;
+  font-family: "Lato", sans-serif;
 }
 
 .home-page .main p {
   font-size: 20px;
   margin-top: 5%;
   word-spacing: 10px;
+  font-family: "Glacial Indifference", sans-serif;
 }
 
 .home-page .main button {
@@ -246,6 +241,7 @@ i {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-family: "MADE Evolve Sans", sans-serif;
 }
 
 .home-page .gif {
@@ -261,6 +257,18 @@ i {
 .article-page {
   margin-top: 50%;
   background-color: #fff;
+}
+
+.article-page .articles .row {
+  margin: 2%;
+}
+
+.article-page .one {
+  margin: 2%;
+}
+
+.article-page .two {
+  margin: 2%;
 }
 
 .column {
