@@ -11,8 +11,12 @@
   text-decoration: none;
 }
 
+:root {
+  --color: #f8fff6;
+}
+
 body {
-  background-color: #f8fff6;
+  background-color: var(--color);
 }
 
 .article-page .articles .row {
