@@ -62,3 +62,7 @@ gif.addEventListener("mouseover", (e) => {
   e.preventDefault();
   gif.style.pointerEvents = "none";
 });
+
+//hoevering on the menu
+const overTheMenu = document.querySelector(".sidebar");
+overTheMenu.onclick("");
