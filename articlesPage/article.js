@@ -5,7 +5,7 @@ const fetchNews = async (page, q) => {
     "q=" +
     q +
     "&from=2023&" +
-    "pageSize=4&" +
+    "pageSize=8&" +
     "language=en&" +
     "page=" +
     page +
