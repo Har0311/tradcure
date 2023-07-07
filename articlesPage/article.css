@@ -13,6 +13,8 @@
 
 :root {
   --color: #f8fff6;
+  --main-color: #a0d195;
+  --text-color: #545454;
 }
 
 body {
@@ -26,6 +28,8 @@ body {
 .article-page .one {
   margin: 2%;
   font-size: 50px;
+  margin-left: 2%;
+  color: var(--text-color);
   font-family: "MADE Evolve Sans", sans-serif;
 }
 
@@ -36,15 +40,19 @@ body {
 }
 
 .column {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--text-color);
   float: left;
   width: 25%;
   padding: 0 10px;
   font-family: "Glacial Indifference", sans-serif;
+  object-fit: fill;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
 .row {
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 /* Clear floats after the columns */
@@ -57,12 +65,18 @@ body {
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 2%;
   text-align: center;
   background-color: #f1f1f1;
-  height: 320px;
-  width: 320px;
-  margin-top: 2%;
+  height: 300px;
+  width: 350px;
+  margin-top: 5%;
+  transition: 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border: 1px solid var(--text-color);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -70,18 +84,29 @@ body {
   width: 100%;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
+.card a {
+  visibility: hidden;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-  display: block;
+.card:hover a {
+  visibility: visible;
 }
 
-@media screen and ((max-width: 850px)) {
+@media screen and ((max-width: 1200px)) {
   .column {
+    width: 33.33%;
+  }
+}
+
+@media screen and ((max-width: 800px)) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and ((max-width: 600px)) {
+  .column {
+    margin-left: 5%;
     width: 100%;
     display: block;
     margin-bottom: 20px;

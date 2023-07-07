@@ -27,7 +27,10 @@ const fetchNews = async (page, q) => {
         <img src="${item.urlToImage}" alt="..." />
         <div class="container">
           <p>${item.description.slice(0, 150) + ".."}</p>
-          <a href="${item.url}" target="_blank" class="btn">Go somewhere</a>
+          <a href="${
+            item.url
+          }" target="_blank" class="btn"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #545454;"></i
+      ></a>
         </div>
       </div>
     </div>`;

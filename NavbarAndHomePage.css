@@ -14,7 +14,7 @@
   --main-color: #f8fff6;
   --dark-color: #a0d195;
   --white-color: #fff;
-  --black-color: black;
+  --text-color: #545454;
 }
 
 body {
@@ -70,7 +70,7 @@ h3 {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   text-align: center;
-  color: var(--black-color);
+  color: var(--text-color);
 }
 .sidebar li i {
   margin-left: 5px;
@@ -123,7 +123,7 @@ i {
   -webkit-border-radius: 20;
   -moz-border-radius: 20;
   border-radius: 20px;
-  color: var(--black-color);
+  color: var(--text-color);
   font-family: "Glacial Indifference", sans-serif;
   font-size: 20px;
   padding: 7px 14px 7px 14px;
@@ -149,7 +149,7 @@ i {
   border-radius: 5px;
   border: none;
   background-color: var(--dark-color);
-  color: var(--black-color);
+  color: var(--text-color);
   cursor: pointer;
 }
 .detail .right ul li a {
@@ -157,7 +157,7 @@ i {
   font-family: "Glacial Indifference", sans-serif;
   border-radius: 5px;
   border: none;
-  color: var(--black-color);
+  color: var(--text-color);
 }
 .detail .right ul #fonts {
   font-size: 23px;
@@ -179,7 +179,7 @@ i {
 .close-menu {
   float: right;
   position: absolute;
-  color: var(--black-color);
+  color: var(--text-color);
   font-size: 40px;
   line-height: 80px;
   cursor: pointer;
@@ -228,7 +228,7 @@ i {
 
 /* Links inside the dropdown */
 .dropdown-content li a {
-  color: var(--black-color);
+  color: var(--text-color);
   padding: 5%;
   text-decoration: none;
   display: block;
@@ -248,16 +248,19 @@ i {
 }
 
 .home-page .main h1 {
+  color: var(--text-color);
   font-size: 110px;
   font-family: "Lato", sans-serif;
 }
 
 .home-page .main h3 {
+  color: var(--text-color);
   font-size: 50px;
   font-family: "Lato", sans-serif;
 }
 
 .home-page .main p {
+  color: var(--text-color);
   font-size: 20px;
   margin-top: 5%;
   word-spacing: 10px;
@@ -268,7 +271,7 @@ i {
   margin-top: 3%;
   background-color: var(--dark-color);
   border: 1px solid black;
-  color: var(--black-color);
+  color: var(--text-color);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
