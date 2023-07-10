@@ -383,9 +383,6 @@ i {
 }
 
 /* dropdown css */
-.dropdown {
-  float: left;
-}
 
 .dropdown .dropbtn {
   font-size: 16px;
