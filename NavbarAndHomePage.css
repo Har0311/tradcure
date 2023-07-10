@@ -136,7 +136,7 @@ i {
   transform: scale(1.1);
   background-color: #a0d195;
   border-radius: 5px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .detail .right ul li {
   display: inline-block;
@@ -200,22 +200,22 @@ i {
   display: none;
 }
 
-/* dropdown */
+/* dropdown
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover,
+/* .dropbtn:hover,
 .dropbtn:focus {
   background-color: var(--dark-color);
-}
+} */
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+/* .dropdown {
   position: relative;
   display: inline-block;
-}
+} */
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+/* .dropdown-content {
   display: none;
   box-sizing: border-box;
   text-align: center;
@@ -224,10 +224,10 @@ i {
   min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
+} */
 
 /* Links inside the dropdown */
-.dropdown-content li a {
+/* .dropdown-content li a {
   color: var(--text-color);
   padding: 5%;
   text-decoration: none;
@@ -236,7 +236,7 @@ i {
   padding: 10px 20px;
   text-align: center;
   justify-content: center;
-}
+} */
 
 /* main page styles */
 
@@ -370,4 +370,56 @@ i {
     height: 300px;
     width: 300px;
   }
+}
+
+@media screen and ((max-width: 400px)) {
+  .home-page .gif {
+    margin-left: 5%;
+  }
+  iframe {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/* dropdown css */
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: var(--main-color);
+  padding: 10px 12px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 2%;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--white-color);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
